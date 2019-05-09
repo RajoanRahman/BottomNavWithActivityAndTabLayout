@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment.RockMusicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/layout_one"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:layout_marginRight="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rock_music_one"
+            android:layout_width="150dp"
+            android:layout_height="160dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/rock_music_two"
+            android:layout_width="150dp"
+            android:layout_height="160dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_two"
+        android:layout_below="@id/layout_one"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:layout_marginRight="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rock_music_three"
+            android:layout_width="150dp"
+            android:layout_height="160dp" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/rock_music_four"
+            android:layout_width="150dp"
+            android:layout_height="160dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
